@@ -1,0 +1,10 @@
+# https://taskfile.dev/usage/
+version: "3"
+tasks:
+  dev: bun run dev
+  build: bun run build
+  pre: bun preview
+  # vite serve some/sub/dir
+
+  ## Setup
+  # bun add -D vite
