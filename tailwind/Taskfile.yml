@@ -1,0 +1,12 @@
+# https://taskfile.dev/usage/
+version: "3"
+tasks:
+  dev: bun run dev
+  build: bun run build
+  pre: bun run preview
+
+  ## Setup
+  setup: |
+    bun create vite . --template react-ts
+    bun install -D tailwindcss postcss autoprefixer daisyui
+    bun tailwindcss init --postcss --esm --ts

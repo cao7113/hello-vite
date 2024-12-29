@@ -1,8 +1,8 @@
-# Hello Vite
+# Hello Web with Vite
 
-- https://vitejs.dev/
+Playground to web & js tutorials!
+
+## Links
+
+- [The Build Tool for the Web](https://vitejs.dev/)
 - https://github.com/vitejs/vite
-
-## Getting started
-
-https://vitejs.dev/guide/#manual-installation

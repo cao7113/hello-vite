@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+}
+
+/* descendant combinator */
+p span {
+  color: green;
+}
+
+/* adjacent sibling combinator) */
+h1+p {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: none;
+}
